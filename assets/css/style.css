@@ -1,0 +1,42 @@
+body {
+  background-color: #000;
+  color: #fff;
+}
+button, div, form, input {
+  margin: 10px auto;
+}
+.col-md-3 {
+  display: inline-block;
+}
+header {
+  text-align: center;
+  background-color: blueviolet;
+  color: #fff;
+  padding: 15px;
+}
+.gif:hover {
+  background-color: red;
+  color: #000;
+}
+.gif {
+  color: #fff;
+  background-color: blueviolet;
+  border: 3px #000 solid;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+.add-gif {
+  color: #fff;
+  background-color: blueviolet;
+  border: 3px #000 solid;
+  margin: 0 10px 0 0;
+  padding: 5px;
+}
+.add-gif:hover {
+  background-color: red;
+  color: #000;
+}
+.gifDisplay {
+  width: 230px;
+  height: 200px;
+}
