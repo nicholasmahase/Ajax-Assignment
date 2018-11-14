@@ -6,8 +6,7 @@
       function displaygifInfo() {
 
         var gif = $(this).attr("data-name");
-        //var queryURL = "https://api.giphy.com/v1/gifs/random?api_key=gpAVPx2kVKoCbUtMgxvIBO0ulIgvD1p2&tag=movies";
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=gpAVPx2kVKoCbUtMgxvIBO0ulIgvD1p2&tag=movies&limit=12";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gif + "&api_key=gpAVPx2kVKoCbUtMgxvIBO0ulIgvD1p2&tag=movies&limit=12";
 
 
         // Creates AJAX call for the specific gif button being clicked
